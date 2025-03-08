@@ -1,5 +1,5 @@
 # floorplanai
-from fastapi import FastAPI, UploadFile, file
+from fastapi import FastAPI, UploadFile, floorplanai
 import cv2
 import numpy as np
 import pytesseract
