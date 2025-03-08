@@ -41,3 +41,7 @@ async def upload_image(file: UploadFile = File(...)):
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
+git add requirements.txt
+git commit -m "Added requirements.txt"
+git push origin main
